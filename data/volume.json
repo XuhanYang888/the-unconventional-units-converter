@@ -1,0 +1,25 @@
+{
+  "volume": [
+    { "object": "standard_water_bottle", "ml": 500 },
+    { "object": "coffee_mug", "ml": 300 },
+    { "object": "soup_bowl", "ml": 400 },
+    { "object": "teaspoon", "ml": 5 },
+    { "object": "tablespoon", "ml": 15 },
+    { "object": "wine_glass", "ml": 150 },
+    { "object": "beer_bottle", "ml": 330 },
+    { "object": "juice_box", "ml": 200 },
+    { "object": "pet_bottle_cap", "ml": 7 },
+    { "object": "milk_carton", "ml": 250 },
+    { "object": "oil_jug", "ml": 1000 },
+    { "object": "detergent_bottle", "ml": 1500 },
+    { "object": "measuring_cup", "ml": 250 },
+    { "object": "ice_cream_tub", "ml": 500 },
+    { "object": "takeaway_soup_container", "ml": 700 },
+    { "object": "baby_bottle", "ml": 240 },
+    { "object": "thermos", "ml": 750 },
+    { "object": "paint_can", "ml": 1000 },
+    { "object": "flower_vase", "ml": 1200 },
+    { "object": "fish_tank", "ml": 2000 },
+    { "object": "blender_pitcher", "ml": 1500 }
+  ]
+}

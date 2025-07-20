@@ -1,0 +1,24 @@
+{
+  "area": [
+    { "object": "sticky_note", "sqcm": 58 },
+    { "object": "postcard", "sqcm": 320 },
+    { "object": "credit_card", "sqcm": 54 },
+    { "object": "smartphone_screen", "sqcm": 100 },
+    { "object": "paper_sheet (A4)", "sqcm": 6237 },
+    { "object": "placemat", "sqcm": 3000 },
+    { "object": "laptop_cover", "sqcm": 19600 },
+    { "object": "cutting_board", "sqcm": 15000 },
+    { "object": "picture_frame", "sqcm": 8000 },
+    { "object": "plate", "sqcm": 20106 },
+    { "object": "mirror", "sqcm": 9000 },
+    { "object": "doormat", "sqcm": 40000 },
+    { "object": "rug", "sqcm": 100000 },
+    { "object": "window", "sqcm": 60000 },
+    { "object": "sofa_seat", "sqcm": 30000 },
+    { "object": "tabletop", "sqcm": 50000 },
+    { "object": "phone_screen protector", "sqcm": 50 },
+    { "object": "notebook_cover", "sqcm": 1800 },
+    { "object": "CD_cover", "sqcm": 142 },
+    { "object": "chalkboard", "sqcm": 20000 }
+  ]
+}

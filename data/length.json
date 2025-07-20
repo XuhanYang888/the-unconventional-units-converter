@@ -1,0 +1,24 @@
+{
+  "length": [
+    { "object": "pencil", "cm": 19 },
+    { "object": "smartphone", "cm": 14 },
+    { "object": "credit_card", "cm": 8.6 },
+    { "object": "standard_ruler", "cm": 30 },
+    { "object": "toothbrush", "cm": 19 },
+    { "object": "fork", "cm": 20 },
+    { "object": "spoon", "cm": 15 },
+    { "object": "wallet", "cm": 11 },
+    { "object": "book", "cm": 23 },
+    { "object": "computer mouse", "cm": 11 },
+    { "object": "baseball_bat (youth)", "cm": 71 },
+    { "object": "shoe (men’s)", "cm": 30 },
+    { "object": "water_bottle (500 ml)", "cm": 25 },
+    { "object": "sticky_note", "cm": 7.6 },
+    { "object": "TV remote", "cm": 18 },
+    { "object": "socks", "cm": 30 },
+    { "object": "roll of toilet paper (diameter)", "cm": 11 },
+    { "object": "DVD case", "cm": 19 },
+    { "object": "spatula", "cm": 32 },
+    { "object": "cookbook", "cm": 28 }
+  ]
+}
