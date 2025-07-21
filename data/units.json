@@ -1,8 +1,0 @@
-{
-  "default_units": [
-    { "length": "cm" },
-    { "weight": "g" },
-    { "volume": "ml" },
-    { "area": "sqcm" }
-  ]
-}

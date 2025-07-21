@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Unconventional Units Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>The Unconventional Units Converter</h1>
+
+    <div class="glass-container">
+      <table>
+        <tr>
+          <th><label for="valueInput">Enter Value:</label></th>
+          <td><input type="number" id="valueInput" /></td>
+        </tr>
+        <tr>
+          <th><label for="unitSelect">Select Unit:</label></th>
+          <td>
+            <select id="unitSelect">
+              <option value="cm">centimeters (length)</option>
+              <option value="g">grams (weight)</option>
+              <option value="ml">mililiters (volume)</option>
+              <option value="sqcm">centimeters&sup2 (area)</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="button-cell">
+            <button onclick="convertUnit()">Convert</button>
+          </td>
+        </tr>
+      </table>
+
+      <div class="result" id="resultOutput"> Press "Convert" to View </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
