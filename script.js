@@ -5,6 +5,13 @@ const default_units = [
   { area: "sqcm" },
 ];
 
+const unitDisplayNames = {
+  cm: "centimeters",
+  g: "grams",
+  ml: "milliliters",
+  sqcm: "centimeters²",
+};
+
 const conversion_data = {
   length: [
     { object: "pencil", cm: 19 },
@@ -111,6 +118,12 @@ function convertUnit() {
   const value = parseFloat(document.getElementById("valueInput").value);
   const unit = document.getElementById("unitSelect").value;
 
+  if (isNaN(value) || value <= 0) {
+    document.getElementById("resultOutput").innerText =
+      "Please enter a valid positive number.";
+    return;
+  }
+
   const unitType = unit_to_type[unit];
   if (!unitType) {
     document.getElementById("resultOutput").innerText = "Unknown unit.";
@@ -124,10 +137,22 @@ function convertUnit() {
   const objectName = randomOption["object"].replace(/_/g, " ");
 
   const result = value / conversionFactor;
+  const displayUnit = unitDisplayNames[unit] || unit;
 
   document.getElementById(
     "resultOutput"
-  ).innerText = `${value} ${unit} is approximately ${result.toFixed(
+  ).innerText = `${value} ${displayUnit} is approximately ${result.toFixed(
     2
   )} average ${objectName}.`;
+}
+
+function surpriseMe() {
+  const units = Object.keys(unit_to_type);
+  const randomUnit = units[Math.floor(Math.random() * units.length)];
+  const randomValue = Math.floor(Math.random() * 1000) + 1;
+
+  document.getElementById("valueInput").value = randomValue;
+  document.getElementById("unitSelect").value = randomUnit;
+
+  convertUnit();
 }

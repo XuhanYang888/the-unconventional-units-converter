@@ -19,20 +19,23 @@
           <td>
             <select id="unitSelect">
               <option value="cm">centimeters (length)</option>
-              <option value="g">grams (weight)</option>
-              <option value="ml">mililiters (volume)</option>
               <option value="sqcm">centimeters&sup2 (area)</option>
+              <option value="ml">mililiters (volume)</option>
+              <option value="g">grams (weight)</option>
             </select>
           </td>
         </tr>
         <tr>
-          <td colspan="2" class="button-cell">
+          <th class="button-cell">
+            <button id="surpriseButton" onclick="surpriseMe()">Surprise Me</button>
+          </td>
+          <td class="button-cell">
             <button onclick="convertUnit()">Convert</button>
           </td>
         </tr>
       </table>
 
-      <div class="result" id="resultOutput"> Press "Convert" to View </div>
+      <div class="result" id="resultOutput">Press "Convert" to View</div>
     </div>
 
     <script src="script.js"></script>
